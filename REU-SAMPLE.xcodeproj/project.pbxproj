@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354747101DCD1F6100A53040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547470F1DCD1F6100A53040 /* AppDelegate.swift */; };
+		354747121DCD1F6100A53040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354747111DCD1F6100A53040 /* ViewController.swift */; };
+		354747151DCD1F6100A53040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354747131DCD1F6100A53040 /* Main.storyboard */; };
+		354747171DCD1F6100A53040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354747161DCD1F6100A53040 /* Assets.xcassets */; };
+		3547471A1DCD1F6100A53040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354747181DCD1F6100A53040 /* LaunchScreen.storyboard */; };
+		354747251DCD1F6100A53040 /* REU_SAMPLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354747241DCD1F6100A53040 /* REU_SAMPLETests.swift */; };
+		354747301DCD1F6100A53040 /* REU_SAMPLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547472F1DCD1F6100A53040 /* REU_SAMPLEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		354747211DCD1F6100A53040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354747041DCD1F6100A53040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3547470B1DCD1F6100A53040;
+			remoteInfo = "REU-SAMPLE";
+		};
+		3547472C1DCD1F6100A53040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354747041DCD1F6100A53040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3547470B1DCD1F6100A53040;
+			remoteInfo = "REU-SAMPLE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3547470C1DCD1F6100A53040 /* REU-SAMPLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REU-SAMPLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3547470F1DCD1F6100A53040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		354747111DCD1F6100A53040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		354747141DCD1F6100A53040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		354747161DCD1F6100A53040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		354747191DCD1F6100A53040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3547471B1DCD1F6100A53040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354747201DCD1F6100A53040 /* REU-SAMPLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REU-SAMPLETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354747241DCD1F6100A53040 /* REU_SAMPLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REU_SAMPLETests.swift; sourceTree = "<group>"; };
+		354747261DCD1F6100A53040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3547472B1DCD1F6100A53040 /* REU-SAMPLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REU-SAMPLEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3547472F1DCD1F6100A53040 /* REU_SAMPLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REU_SAMPLEUITests.swift; sourceTree = "<group>"; };
+		354747311DCD1F6100A53040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		354747091DCD1F6100A53040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3547471D1DCD1F6100A53040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354747281DCD1F6100A53040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354747031DCD1F6100A53040 = {
+			isa = PBXGroup;
+			children = (
+				3547470E1DCD1F6100A53040 /* REU-SAMPLE */,
+				354747231DCD1F6100A53040 /* REU-SAMPLETests */,
+				3547472E1DCD1F6100A53040 /* REU-SAMPLEUITests */,
+				3547470D1DCD1F6100A53040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3547470D1DCD1F6100A53040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3547470C1DCD1F6100A53040 /* REU-SAMPLE.app */,
+				354747201DCD1F6100A53040 /* REU-SAMPLETests.xctest */,
+				3547472B1DCD1F6100A53040 /* REU-SAMPLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3547470E1DCD1F6100A53040 /* REU-SAMPLE */ = {
+			isa = PBXGroup;
+			children = (
+				3547470F1DCD1F6100A53040 /* AppDelegate.swift */,
+				354747111DCD1F6100A53040 /* ViewController.swift */,
+				354747131DCD1F6100A53040 /* Main.storyboard */,
+				354747161DCD1F6100A53040 /* Assets.xcassets */,
+				354747181DCD1F6100A53040 /* LaunchScreen.storyboard */,
+				3547471B1DCD1F6100A53040 /* Info.plist */,
+			);
+			path = "REU-SAMPLE";
+			sourceTree = "<group>";
+		};
+		354747231DCD1F6100A53040 /* REU-SAMPLETests */ = {
+			isa = PBXGroup;
+			children = (
+				354747241DCD1F6100A53040 /* REU_SAMPLETests.swift */,
+				354747261DCD1F6100A53040 /* Info.plist */,
+			);
+			path = "REU-SAMPLETests";
+			sourceTree = "<group>";
+		};
+		3547472E1DCD1F6100A53040 /* REU-SAMPLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3547472F1DCD1F6100A53040 /* REU_SAMPLEUITests.swift */,
+				354747311DCD1F6100A53040 /* Info.plist */,
+			);
+			path = "REU-SAMPLEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3547470B1DCD1F6100A53040 /* REU-SAMPLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354747341DCD1F6100A53040 /* Build configuration list for PBXNativeTarget "REU-SAMPLE" */;
+			buildPhases = (
+				354747081DCD1F6100A53040 /* Sources */,
+				354747091DCD1F6100A53040 /* Frameworks */,
+				3547470A1DCD1F6100A53040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REU-SAMPLE";
+			productName = "REU-SAMPLE";
+			productReference = 3547470C1DCD1F6100A53040 /* REU-SAMPLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3547471F1DCD1F6100A53040 /* REU-SAMPLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354747371DCD1F6100A53040 /* Build configuration list for PBXNativeTarget "REU-SAMPLETests" */;
+			buildPhases = (
+				3547471C1DCD1F6100A53040 /* Sources */,
+				3547471D1DCD1F6100A53040 /* Frameworks */,
+				3547471E1DCD1F6100A53040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354747221DCD1F6100A53040 /* PBXTargetDependency */,
+			);
+			name = "REU-SAMPLETests";
+			productName = "REU-SAMPLETests";
+			productReference = 354747201DCD1F6100A53040 /* REU-SAMPLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3547472A1DCD1F6100A53040 /* REU-SAMPLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3547473A1DCD1F6100A53040 /* Build configuration list for PBXNativeTarget "REU-SAMPLEUITests" */;
+			buildPhases = (
+				354747271DCD1F6100A53040 /* Sources */,
+				354747281DCD1F6100A53040 /* Frameworks */,
+				354747291DCD1F6100A53040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3547472D1DCD1F6100A53040 /* PBXTargetDependency */,
+			);
+			name = "REU-SAMPLEUITests";
+			productName = "REU-SAMPLEUITests";
+			productReference = 3547472B1DCD1F6100A53040 /* REU-SAMPLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354747041DCD1F6100A53040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "CS Group";
+				TargetAttributes = {
+					3547470B1DCD1F6100A53040 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3DCK4SXD59;
+						ProvisioningStyle = Automatic;
+					};
+					3547471F1DCD1F6100A53040 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3DCK4SXD59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3547470B1DCD1F6100A53040;
+					};
+					3547472A1DCD1F6100A53040 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3DCK4SXD59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3547470B1DCD1F6100A53040;
+					};
+				};
+			};
+			buildConfigurationList = 354747071DCD1F6100A53040 /* Build configuration list for PBXProject "REU-SAMPLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 354747031DCD1F6100A53040;
+			productRefGroup = 3547470D1DCD1F6100A53040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3547470B1DCD1F6100A53040 /* REU-SAMPLE */,
+				3547471F1DCD1F6100A53040 /* REU-SAMPLETests */,
+				3547472A1DCD1F6100A53040 /* REU-SAMPLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3547470A1DCD1F6100A53040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3547471A1DCD1F6100A53040 /* LaunchScreen.storyboard in Resources */,
+				354747171DCD1F6100A53040 /* Assets.xcassets in Resources */,
+				354747151DCD1F6100A53040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3547471E1DCD1F6100A53040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354747291DCD1F6100A53040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354747081DCD1F6100A53040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354747121DCD1F6100A53040 /* ViewController.swift in Sources */,
+				354747101DCD1F6100A53040 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3547471C1DCD1F6100A53040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354747251DCD1F6100A53040 /* REU_SAMPLETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354747271DCD1F6100A53040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354747301DCD1F6100A53040 /* REU_SAMPLEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354747221DCD1F6100A53040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3547470B1DCD1F6100A53040 /* REU-SAMPLE */;
+			targetProxy = 354747211DCD1F6100A53040 /* PBXContainerItemProxy */;
+		};
+		3547472D1DCD1F6100A53040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3547470B1DCD1F6100A53040 /* REU-SAMPLE */;
+			targetProxy = 3547472C1DCD1F6100A53040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		354747131DCD1F6100A53040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354747141DCD1F6100A53040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		354747181DCD1F6100A53040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354747191DCD1F6100A53040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354747321DCD1F6100A53040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		354747331DCD1F6100A53040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		354747351DCD1F6100A53040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = "REU-SAMPLE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csgroup.reu-sample.DanielMora.REU-SAMPLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		354747361DCD1F6100A53040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = "REU-SAMPLE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csgroup.reu-sample.DanielMora.REU-SAMPLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		354747381DCD1F6100A53040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = "REU-SAMPLETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csgroup.reu-sample.DanielMora.REU-SAMPLETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REU-SAMPLE.app/REU-SAMPLE";
+			};
+			name = Debug;
+		};
+		354747391DCD1F6100A53040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = "REU-SAMPLETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csgroup.reu-sample.DanielMora.REU-SAMPLETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REU-SAMPLE.app/REU-SAMPLE";
+			};
+			name = Release;
+		};
+		3547473B1DCD1F6100A53040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = "REU-SAMPLEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csgroup.reu-sample.DanielMora.REU-SAMPLEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "REU-SAMPLE";
+			};
+			name = Debug;
+		};
+		3547473C1DCD1F6100A53040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3DCK4SXD59;
+				INFOPLIST_FILE = "REU-SAMPLEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csgroup.reu-sample.DanielMora.REU-SAMPLEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "REU-SAMPLE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354747071DCD1F6100A53040 /* Build configuration list for PBXProject "REU-SAMPLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354747321DCD1F6100A53040 /* Debug */,
+				354747331DCD1F6100A53040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354747341DCD1F6100A53040 /* Build configuration list for PBXNativeTarget "REU-SAMPLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354747351DCD1F6100A53040 /* Debug */,
+				354747361DCD1F6100A53040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		354747371DCD1F6100A53040 /* Build configuration list for PBXNativeTarget "REU-SAMPLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354747381DCD1F6100A53040 /* Debug */,
+				354747391DCD1F6100A53040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3547473A1DCD1F6100A53040 /* Build configuration list for PBXNativeTarget "REU-SAMPLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3547473B1DCD1F6100A53040 /* Debug */,
+				3547473C1DCD1F6100A53040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 354747041DCD1F6100A53040 /* Project object */;
+}
